@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+nav {
+  height: 80px;
+  background: var(--Black, #232536);
+  padding-top: 26px;
+}
+.first {
+  display: flex;
+}
+nav svg {
+  margin-top: -1px;
+}
+nav p {
+  color: var(--Light, #fff);
+
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.par {
+  display: flex;
+  gap: 24px;
+  margin-left: 621px;
+}
+nav button {
+  background: var(--Light, #fff);
+  display: inline-flex;
+  padding: 16px 48px;
+  align-items: flex-start;
+  gap: 12px;
+  color: black;
+  border: none;
+  margin-top: -15px;
+  margin-left: 52px;
+  color: var(--Black, #232536);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+}
+.par a {
+  color: var(--Light, #fff);
+
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.q {
+  //   max-width: 100%;
+  height: 720px;
+
+  background: url(/images/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
+
+  padding-top: 128px;
+  position: relative;
+}
+.p {
+  color: var(--Light, #fff);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--Light, #fff);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.ichi h1 {
+  color: var(--Light, #fff);
+
+  /* Display */
+  font-family: Inter;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 114.286% */
+  letter-spacing: -2px;
+  width: 780px;
+  margin-top: 24px;
+}
+.p1 {
+  color: var(--Yellow, #ffd050);
+
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--Light, #fff);
+
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-top: 24px;
+}
+.p2 {
+  color: var(--Light, #fff);
+
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  width: 500px;
+  margin-top: 16px;
+}
+.ichi button {
+  background: var(--Yellow, #ffd050);
+  display: inline-flex;
+  padding: 16px 48px;
+  align-items: flex-start;
+  gap: 12px;
+  color: var(--Black, #232536);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  border: none;
+  margin-top: 48px;
+}
+.ichi button:hover {
+  background-color: #f3bb20;
+  transition: 0.7s;
+}
+.sec {
+  margin-top: 94px;
+}
+.sec h2 {
+  color: #000;
+
+  /* Heading H2 */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: -2px;
+}
+.card1 img {
+  width: 405px;
+  height: 318px;
+  flex-shrink: 0;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 64px;
+}
+.p4 {
+  width: 350px;
+  color: var(--Black, #232536);
+
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.hh {
+  color: var(--Black, #232536);
+
+  /* Heading H3 */
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 142.857% */
+  letter-spacing: -1px;
+  width: 390px;
+}
+.card1 {
+  display: grid;
+  row-gap: 16px;
+}
+.sec1 {
+  margin-top: 69px;
+}
+
+.cards1 {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.p5 {
+  color: var(--Medium-grey, #6d6e76);
+
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  width: 200px;
+  margin-top: 3px;
+}
+.card2 {
+  border: 1px solid var(--Medium-grey, #6d6e76);
+  width: 296px;
+  height: 221.072px;
+  flex-shrink: 0;
+  padding: 32px;
+  cursor: pointer;
+}
+.card2 h3 {
+  margin-top: 15px;
+}
+.card3 {
+  border: 1px solid var(--Medium-grey, #6d6e76);
+  width: 296px;
+  height: 221.072px;
+  flex-shrink: 0;
+  padding-left: 32px;
+  padding-top: 42px;
+}
+.card3 h3 {
+  margin-top: 25px;
+  cursor: pointer;
+}
+.card2:hover {
+  background: var(--Yellow, #ffd050);
+  border: none;
+  transition: 0.7s;
+}
+.card3:hover {
+  background: var(--Yellow, #ffd050);
+  transition: 0.7s;
+  border: 1px solid #ffd050;
+}
+////////////////////////////////
+/// Footer///
+footer {
+  margin-top: 73px;
+  background: var(--Black, #232536);
+  height: 164px;
+}
+.big {
+  display: flex;
+  padding-top: 54px;
+  gap: 780px;
+}
+.foot1 p {
+  color: white;
+}
+.foot2 {
+  display: flex;
+  gap: 27px;
+  margin-top: 12px;
+}
