@@ -306,4 +306,8 @@ footer {
   display: flex;
   gap: 27px;
   margin-top: 12px;
+}
+
+input {
+  outline: none;
 }/*# sourceMappingURL=home.css.map */

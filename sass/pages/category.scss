@@ -97,4 +97,129 @@ input {
   padding: 24px;
   align-items: center;
   gap: 10px;
+  outline: none;
+}
+.cardd {
+  display: flex;
+}
+.ichki {
+  margin-left: 49px;
+}
+.ichki h2 {
+  color: var(--Black, #232536);
+
+  /* Heading H2 */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: -2px;
+  margin-top: 20px;
+}
+.pi {
+  color: var(--Purple, #592ea9);
+
+  /* Cap 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.pi1 {
+  color: var(--Medium-grey, #6d6e76);
+
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  width: 779.581px;
+  margin-top: 64px;
+}
+.cardss {
+  display: grid;
+  row-gap: 32px;
+  margin-top: 57px;
+}
+.osobeno p {
+  color: var(--Medium-grey, #6d6e76);
+  text-align: center;
+
+  /* Heading H4 */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  margin-top: 3px;
+  cursor: pointer;
+}
+.osobeno p:hover {
+  color: black;
+  transition: 0.6s;
+}
+.osobeno h3:hover {
+  color: #6d6e76;
+  transition: 0.6s;
+}
+.osobeno a:hover {
+  color: #6d6e76;
+  transition: 0.6s;
+}
+.osobeno h3 {
+  margin-top: -1px;
+  cursor: pointer;
+  color: var(--Black, #232536);
+  text-align: center;
+  /* Heading H3 */
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 142.857% */
+  letter-spacing: -1px;
+}
+.osobeno a {
+  text-decoration: none;
+  color: var(--Black, #232536);
+  text-align: center;
+
+  /* Heading H3 */
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 142.857% */
+  letter-spacing: -1px;
+}
+.bigg {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 87px;
+}
+////////////////////////////////
+/// Footer///
+footer {
+  margin-top: 87px;
+  background: var(--Black, #232536);
+  height: 164px;
+}
+.big {
+  display: flex;
+  padding-top: 54px;
+  gap: 780px;
+}
+.foot1 p {
+  color: white;
+}
+.foot2 {
+  display: flex;
+  gap: 27px;
+  margin-top: 12px;
 }
